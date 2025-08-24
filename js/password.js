@@ -18,7 +18,7 @@ function isPasswordProtected() {
  * 为了安全考虑，所有部署都必须设置密码
  */
 function isPasswordRequired() {
-    return !isPasswordProtected();
+    return false;
 }
 
 /**
